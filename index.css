@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Container container flex_container and display box */
+.container {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 250px;
+    height: 210px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+/* Flex Container */
+.flex_container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 250px;
+    border-radius: 10px;
+}
+
+/* Display */
+#display {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 230px;
+    height: 25px;
+    border: 1px solid gray;
+}
+
+h1 {
+    text-align: center;
+}
+
+.row {
+    text-align: center;
+    width: 60px;
+    height: 150px;
+}
+
+button {
+    margin-top: 10px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+#plus {
+    height: 50px;
+}
