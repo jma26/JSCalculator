@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Link CSS -->
     <link rel='stylesheet' type='text/css' href='index.css'>
+    <!-- jQuery Google CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Link JS -->
+    <script src='index.js'></script>
     <title> FCC Calculator </title>
 </head>
 <body>
@@ -14,31 +18,31 @@
         <div id='display'></div>
         <div class='flex_container'>
             <div id='first' class='row'>
-                <button> AC </button>
-                <button> 7 </button>
-                <button> 4 </button>
-                <button> 1 </button>
-                <button> 0 </button>
+                <button id='ac'> AC </button>
+                <button id='7' class='number'> 7 </button>
+                <button id='4' class='number'> 4 </button>
+                <button id='1' class='number'> 1 </button>
+                <button id='0' class='number'> 0 </button>
             </div>
             <div id='second' class='row'>
-                <button> CE </button>
-                <button> 8 </button>
-                <button> 5 </button>
-                <button> 2 </button>
-                <button> . </button>
+                <button id='ce'> CE </button>
+                <button id='8' class='number'> 8 </button>
+                <button id='5' class='number'> 5 </button>
+                <button id='2' class='number'> 2 </button>
+                <button id='.'> . </button>
             </div>
             <div id='third' class='row'>
-                <button> % </button>
-                <button> 9 </button>
-                <button> 6 </button>
-                <button> 3 </button>
-                <button> = </button>
+                <button id='%' class='operator'> % </button>
+                <button id='9' class='number'> 9 </button>
+                <button id='6' class='number'> 6 </button>
+                <button id='3' class='number'> 3 </button>
+                <button id='=' class='operator'> = </button>
             </div>
             <div id='fourth' class='row'>
-                <button> / </button>
-                <button> X </button>
-                <button> - </button>
-                <button id='plus'> + </button>
+                <button id='/' class='operator'> / </button>
+                <button id='x' class='operator'> * </button>
+                <button id='minus' class='operator'> - </button>
+                <button id='plus' class='operator'> + </button>
             </div>
         </div>
     </div>
