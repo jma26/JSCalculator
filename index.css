@@ -23,8 +23,15 @@
     border-radius: 10px;
 }
 
+/* Hidden % button, functionality to be implemented later */
+#percentage {
+    visibility: hidden;
+}
+
 /* Display */
 #display {
+    overflow: auto;
+    text-align: right;
     margin: 0 auto;
     margin-top: 20px;
     width: 230px;
